@@ -1,0 +1,2 @@
+﻿  MyImageFunc.cpp
+c:\users\혜영\documents\visual studio 2015\projects\drawing_circle\drawing_circle\myimagefunc.cpp(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdafx.h': No such file or directory
