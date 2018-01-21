@@ -1,0 +1,32 @@
+2008/05/23 18:13:33 Starting cygwin install, version 2.573.2.2
+2008/05/23 18:13:33 Current Directory: E:\cygwin_source
+2008/05/23 18:13:33 Changing gid to Users
+2008/05/23 18:13:33 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2008/05/23 18:13:36 source: download
+2008/05/23 18:13:38 Selected local directory: E:\cygwin_source
+2008/05/23 18:13:41 net: Direct
+2008/05/23 18:13:41 io_stream_cygfile: fopen(/etc/setup/mirrors-lst) failed 2 No such file or directory
+2008/05/23 18:14:21 Ending cygwin install
+2008/05/23 18:14:22 Starting cygwin install, version 2.573.2.2
+2008/05/23 18:14:22 Current Directory: E:\cygwin_source
+2008/05/23 18:14:22 Changing gid to Users
+2008/05/23 18:14:22 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2008/05/23 18:14:24 source: download
+2008/05/23 18:14:25 Selected local directory: E:\cygwin_source
+2008/05/23 18:14:26 net: Direct
+2008/05/23 18:14:26 io_stream_cygfile: fopen(/etc/setup/mirrors-lst) failed 2 No such file or directory
+2008/05/23 18:14:32 site: ftp://ftp.jaist.ac.jp/pub/cygwin
+2008/05/23 18:14:41 Warning, the default trust level for package  does not meet this specification libpgtypes2
+2008/05/23 18:14:41 Warning, the default trust level for package  does not meet this specification libecpg5
+2008/05/23 18:14:44 Warning, the default trust level for package  does not meet this specification libpgtypes2
+2008/05/23 18:14:44 Warning, the default trust level for package  does not meet this specification libecpg5
+2008/05/23 18:15:15 Adding required dependency libecpg5: Selecting already-installed version .
+2008/05/23 18:15:15 Adding required dependency libpgtypes2: Selecting already-installed version .
+2008/05/23 18:15:18 Downloaded E:\cygwin_source/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin/release/alternatives/alternatives-1.3.30c-2.tar.bz2
+2008/05/23 18:15:23 Downloaded E:\cygwin_source/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin/release/asciidoc/asciidoc-8.2.6-1.tar.bz2
+2008/05/23 18:15:27 Downloaded E:\cygwin_source/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin/release/atool/atool-0.34.0-2.tar.bz2
+2008/05/23 18:15:38 Downloaded E:\cygwin_source/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin/release/bash/bash-3.2.39-19.tar.bz2
+2008/05/23 18:17:01 Downloaded E:\cygwin_source/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin/release/boost/boost-1.33.1-4.tar.bz2
+2008/05/23 18:18:23 Downloaded E:\cygwin_source/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin/release/bzr/bzr-1.4-1.tar.bz2
+2008/05/23 18:18:28 Downloaded E:\cygwin_source/ftp%3a%2f%2fftp.jaist.ac.jp%2fpub%2fcygwin/release/cadaver/cadaver-0.23.2-1.tar.bz2
+2008/05/23 18:18:54 Ending cygwin install

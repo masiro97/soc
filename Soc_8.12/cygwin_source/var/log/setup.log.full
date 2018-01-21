@@ -1,0 +1,13 @@
+2008/04/16 09:06:01 Starting cygwin install, version 2.573.2.2
+2008/04/16 09:06:01 Current Directory: C:\Documents and Settings\Hokyoon Lee\πŸ≈¡ »≠∏È
+2008/04/16 09:06:01 Changing gid to Users
+2008/04/16 09:06:01 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2008/04/16 09:06:05 source: from cwd
+2008/04/16 09:10:42 root: E:\cygwin_source binary system
+2008/04/16 09:10:44 io_stream_cygfile: fopen(/etc/setup/last-cache) failed 2 No such file or directory
+2008/04/16 09:10:44 Selected local directory: C:\Documents and Settings\Hokyoon Lee\πŸ≈¡ »≠∏È
+2008/04/16 09:10:53 io_stream_cygfile: fopen(/etc/setup/last-action) failed 2 No such file or directory
+2008/04/16 09:10:53 io_stream_cygfile: fopen(/etc/setup/last-mirror) failed 2 No such file or directory
+2008/04/16 09:10:53 io_stream_cygfile: fopen(/etc/setup/last-connection) failed 2 No such file or directory
+2008/04/16 09:10:53 io_stream_cygfile: fopen(/etc/setup/last-cache) failed 2 No such file or directory
+2008/04/16 09:10:53 Ending cygwin install
