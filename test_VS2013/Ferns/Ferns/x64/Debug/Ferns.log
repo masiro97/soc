@@ -1,0 +1,35 @@
+﻿빌드 시작: 2016-05-10 오전 6:30:23
+     1>2 노드의 "C:\Users\혜영\Documents\Visual Studio 2013\Projects\Ferns\Ferns\Ferns.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Ic:\opencv\build\include /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt lib\planar_pattern_detector.cc
+         planar_pattern_detector.cc
+     1>lib\planar_pattern_detector.cc(311): warning C4305: '인수' : 'double'에서 'const float'(으)로 잘립니다.
+     1>lib\planar_pattern_detector.cc(339): warning C4244: '인수' : 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>lib\planar_pattern_detector.cc(342): warning C4244: '인수' : 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>lib\planar_pattern_detector.cc(372): warning C4244: '인수' : 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>lib\planar_pattern_detector.cc(374): warning C4244: '인수' : 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>lib\planar_pattern_detector.cc(378): warning C4244: '인수' : 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\혜영\Documents\Visual Studio 2013\Projects\Ferns\x64\Debug\Ferns.exe" /INCREMENTAL /NOLOGO /LIBPATH:c:\opencv\build\x64\vc12\lib opencv_calib3d2411d.lib opencv_contrib2411d.lib opencv_core2411d.lib opencv_features2d2411d.lib opencv_flann2411d.lib opencv_gpu2411d.lib opencv_imgproc2411d.lib opencv_ml2411d.lib opencv_objdetect2411d.lib opencv_ts2411d.lib opencv_video2411d.lib opencv_highgui2411d.lib opencv_nonfree2411d.lib opencv_photo2411d.lib opencv_stitching2411d.lib opencv_videostab2411d.lib zlibd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\혜영\Documents\Visual Studio 2013\Projects\Ferns\x64\Debug\Ferns.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\혜영\Documents\Visual Studio 2013\Projects\Ferns\x64\Debug\Ferns.lib" /MACHINE:X64 x64\Debug\affine_image_generator06.obj
+         x64\Debug\affine_transformation_range.obj
+         x64\Debug\buffer_management.obj
+         x64\Debug\cmphomo.obj
+         x64\Debug\ferns.obj
+         x64\Debug\fern_based_point_classifier.obj
+         x64\Debug\fine_gaussian_pyramid.obj
+         x64\Debug\homography06.obj
+         x64\Debug\homography_estimator.obj
+         x64\Debug\main.obj
+         x64\Debug\mcv.obj
+         x64\Debug\mcvGaussianSmoothing.obj
+         x64\Debug\planar_pattern_detector.obj
+         x64\Debug\planar_pattern_detector_builder.obj
+         x64\Debug\pyr_yape06.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\template_matching_based_tracker.obj
+         Ferns.vcxproj -> C:\Users\혜영\Documents\Visual Studio 2013\Projects\Ferns\x64\Debug\Ferns.exe
+     1>"C:\Users\혜영\Documents\Visual Studio 2013\Projects\Ferns\Ferns\Ferns.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:07.75

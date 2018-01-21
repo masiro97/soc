@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lib\affine_image_generator06.cc">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\affine_transformation_range.cc">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\buffer_management.cc">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\cmphomo.cc">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\fern_based_point_classifier.cc">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\ferns.cc">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\fine_gaussian_pyramid.cc">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\homography_estimator.cc">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\homography06.cc">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\main.cc">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\mcv.cc">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\mcvGaussianSmoothing.cc">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\pyr_yape06.cc">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\template_matching_based_tracker.cc">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\planar_pattern_detector.cc">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\planar_pattern_detector_builder.cc">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lib\affine_image_generator06.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\affine_transformation_range.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\buffer_management.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\cmphomo.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\fern_based_point_classifier.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ferns.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\fine_gaussian_pyramid.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\general.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\homography_estimator.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\homography06.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\keypoint.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\mcv.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\mcvGaussianSmoothing.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\pyr_yape06.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\stdafx.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\targetver.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\template_matching_based_tracker.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\zconf.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\zlib.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\zutil.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\planar_pattern_detector.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\planar_pattern_detector_builder.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

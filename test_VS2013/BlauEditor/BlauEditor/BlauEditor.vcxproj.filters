@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ferns">
+      <UniqueIdentifier>{d1583aed-b673-4641-8ca8-2a87580cbd2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ferns\zlib">
+      <UniqueIdentifier>{8c9ac726-b08d-4c3a-a0f6-f1d6533ab632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageSrc">
+      <UniqueIdentifier>{f0babd82-f290-48f7-a867-f2e4dbe54733}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BlauEditor.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BlauEditorDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageSrc\ImageFrameWnd.h">
+      <Filter>ImageSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageSrc\ImageFrameWndManager.h">
+      <Filter>ImageSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageSrc\ImageView.h">
+      <Filter>ImageSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageSrc\LoadImageFromFileDialog.h">
+      <Filter>ImageSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageSrc\MyImageFunc.h">
+      <Filter>ImageSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageSrc\BlauCam.h">
+      <Filter>ImageSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\buffer_management.h">
+      <Filter>ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\cmphomo.h">
+      <Filter>ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\fern_based_point_classifier.h">
+      <Filter>ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\ferns.h">
+      <Filter>ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\fine_gaussian_pyramid.h">
+      <Filter>ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\general.h">
+      <Filter>ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\homography_estimator.h">
+      <Filter>ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\homography06.h">
+      <Filter>ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\keypoint.h">
+      <Filter>ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\planar_pattern_detector.h">
+      <Filter>ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\pyr_yape06.h">
+      <Filter>ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\template_matching_based_tracker.h">
+      <Filter>ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageSrc\defs_and_types.h">
+      <Filter>ImageSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\zlib\crc32.h">
+      <Filter>ferns\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\zlib\deflate.h">
+      <Filter>ferns\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\zlib\gzguts.h">
+      <Filter>ferns\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\zlib\inffast.h">
+      <Filter>ferns\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\zlib\inffixed.h">
+      <Filter>ferns\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\zlib\inflate.h">
+      <Filter>ferns\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\zlib\inftrees.h">
+      <Filter>ferns\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\zlib\namespace.zlib.h">
+      <Filter>ferns\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\zlib\trees.h">
+      <Filter>ferns\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\zlib\zconf.h">
+      <Filter>ferns\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\zlib\zlib.h">
+      <Filter>ferns\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\zlib\zutil.h">
+      <Filter>ferns\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageSrc\BlauImage.h">
+      <Filter>ImageSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="svd.h">
+      <Filter>ImageSrc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BlauEditor.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BlauEditorDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageSrc\ImageFrameWnd.cpp">
+      <Filter>ImageSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageSrc\ImageFrameWndManager.cpp">
+      <Filter>ImageSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageSrc\ImageView.cpp">
+      <Filter>ImageSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageSrc\LoadImageFromFileDialog.cpp">
+      <Filter>ImageSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageSrc\MyImageFunc.cpp">
+      <Filter>ImageSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageSrc\BlauCam.cpp">
+      <Filter>ImageSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageSrc\svd.cpp">
+      <Filter>ImageSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\buffer_management.cc">
+      <Filter>ferns</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\cmphomo.cc">
+      <Filter>ferns</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\fern_based_point_classifier.cc">
+      <Filter>ferns</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\ferns.cc">
+      <Filter>ferns</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\fine_gaussian_pyramid.cc">
+      <Filter>ferns</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\homography_estimator.cc">
+      <Filter>ferns</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\homography06.cc">
+      <Filter>ferns</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\planar_pattern_detector.cc">
+      <Filter>ferns</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\pyr_yape06.cc">
+      <Filter>ferns</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\template_matching_based_tracker.cc">
+      <Filter>ferns</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\zlib\adler32.cpp">
+      <Filter>ferns\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\zlib\compress.cpp">
+      <Filter>ferns\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\zlib\crc32.cpp">
+      <Filter>ferns\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\zlib\deflate.cpp">
+      <Filter>ferns\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\zlib\gzclose.cpp">
+      <Filter>ferns\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\zlib\gzlib.cpp">
+      <Filter>ferns\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\zlib\gzread.cpp">
+      <Filter>ferns\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\zlib\gzwrite.cpp">
+      <Filter>ferns\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\zlib\infback.cpp">
+      <Filter>ferns\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\zlib\inffast.cpp">
+      <Filter>ferns\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\zlib\inflate.cpp">
+      <Filter>ferns\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\zlib\inftrees.cpp">
+      <Filter>ferns\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\zlib\trees.cpp">
+      <Filter>ferns\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\zlib\uncompr.cpp">
+      <Filter>ferns\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\zlib\zutil.cpp">
+      <Filter>ferns\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageSrc\BlauImage.cpp">
+      <Filter>ImageSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="BlauFunction.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BlauEditor.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\BlauEditor.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\BlauEditor.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
