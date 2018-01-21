@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\ferns">
+      <UniqueIdentifier>{485ccc87-4f5e-42cc-b5d8-5bf5d76833cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\zlib">
+      <UniqueIdentifier>{f157ff70-f3f7-4c25-ae2a-0b810b302945}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ferns\affine_image_generator06.h">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\affine_transformation_range.h">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\buffer_management.h">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\cmphomo.h">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\fern_based_point_classifier.h">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\ferns.h">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\fine_gaussian_pyramid.h">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\general.h">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\homography_estimator.h">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\homography06.h">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\keypoint.h">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\mcv.h">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\mcvGaussianSmoothing.h">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\planar_pattern_detector.h">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\planar_pattern_detector_builder.h">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\pyr_yape06.h">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\stdafx.h">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\targetver.h">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\template_matching_based_tracker.h">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\zlib\crc32.h">
+      <Filter>헤더 파일\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\zlib\deflate.h">
+      <Filter>헤더 파일\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\zlib\gzguts.h">
+      <Filter>헤더 파일\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\zlib\inffast.h">
+      <Filter>헤더 파일\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\zlib\inffixed.h">
+      <Filter>헤더 파일\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\zlib\inflate.h">
+      <Filter>헤더 파일\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\zlib\inftrees.h">
+      <Filter>헤더 파일\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\zlib\namespace.zlib.h">
+      <Filter>헤더 파일\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\zlib\trees.h">
+      <Filter>헤더 파일\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\zlib\zconf.h">
+      <Filter>헤더 파일\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\zlib\zlib.h">
+      <Filter>헤더 파일\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ferns\zlib\zutil.h">
+      <Filter>헤더 파일\zlib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ferns\affine_image_generator06.cc">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\affine_transformation_range.cc">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\buffer_management.cc">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\cmphomo.cc">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\fern_based_point_classifier.cc">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\ferns.cc">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\fine_gaussian_pyramid.cc">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\homography_estimator.cc">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\homography06.cc">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\main.cc">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\mcv.cc">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\mcvGaussianSmoothing.cc">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\planar_pattern_detector.cc">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\planar_pattern_detector_builder.cc">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\pyr_yape06.cc">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\stdafx.cpp">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\template_matching_based_tracker.cc">
+      <Filter>헤더 파일\ferns</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\zlib\adler32.cpp">
+      <Filter>헤더 파일\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\zlib\compress.cpp">
+      <Filter>헤더 파일\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\zlib\crc32.cpp">
+      <Filter>헤더 파일\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\zlib\deflate.cpp">
+      <Filter>헤더 파일\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\zlib\gzclose.cpp">
+      <Filter>헤더 파일\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\zlib\gzlib.cpp">
+      <Filter>헤더 파일\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\zlib\gzread.cpp">
+      <Filter>헤더 파일\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\zlib\gzwrite.cpp">
+      <Filter>헤더 파일\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\zlib\infback.cpp">
+      <Filter>헤더 파일\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\zlib\inffast.cpp">
+      <Filter>헤더 파일\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\zlib\inflate.cpp">
+      <Filter>헤더 파일\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\zlib\inftrees.cpp">
+      <Filter>헤더 파일\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\zlib\trees.cpp">
+      <Filter>헤더 파일\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\zlib\uncompr.cpp">
+      <Filter>헤더 파일\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ferns\zlib\zutil.cpp">
+      <Filter>헤더 파일\zlib</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

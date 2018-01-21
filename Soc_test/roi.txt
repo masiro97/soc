@@ -1,0 +1,5 @@
+ripong1:
+x = 180
+y = 82
+width = 180
+height = 230

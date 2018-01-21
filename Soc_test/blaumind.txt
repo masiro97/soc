@@ -1,0 +1,29 @@
+지금까지 알아본
+FAST, Harris 등은 KeyPoint를 찾는 특징점 검출기!
+
+음.. 그러니까..
+해야할 것이 너무나도 많다.
+
+while(true)
+{
+영상(Src) -
+검출(Detection)|물체추적(Tracker) - 특징점 검출(KeyPoint) - 매칭(Recognition)&분류(Classification)
+- 목적영상(Dst)
+}
+
+<frame속도 확보에 대한 고찰>
+detection은 물체인식을 전혀 하지 못할때 사용할것.(추적에 실패했을때도 포함)
+detected된 물체에 대한 추적기(Tracker)를 사용.
+추적된 범위 내에서 KeyPoint - Recognition&Classification의 과정을 수행
+또, 보다나은 수행능력을 위해 Tracking에 비해 함수호출 빈도를 2/3~1/2정도로 낮춘다
+(수행능력과 처리속도에 대한 파라미터 조정가능토록)
+
+
+KeyPoint:
+http://darkpgmr.tistory.com/131
+
+Detection, Tracking, Recognition의 차이 :
+http://darkpgmr.tistory.com/136
+
+Tracker:
+http://darkpgmr.tistory.com/111

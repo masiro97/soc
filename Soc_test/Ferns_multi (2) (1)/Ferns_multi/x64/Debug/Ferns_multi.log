@@ -1,0 +1,94 @@
+﻿planar_pattern_detector.obj : error LNK2001: cvCreateImage 외부 기호를 확인할 수 없습니다.
+pyr_yape06.obj : error LNK2001: cvCreateImage 외부 기호를 확인할 수 없습니다.
+template_matching_based_tracker.obj : error LNK2001: cvCreateImage 외부 기호를 확인할 수 없습니다.
+affine_image_generator06.obj : error LNK2001: cvCreateImage 외부 기호를 확인할 수 없습니다.
+fine_gaussian_pyramid.obj : error LNK2001: cvCreateImage 외부 기호를 확인할 수 없습니다.
+main.obj : error LNK2001: cvCreateImage 외부 기호를 확인할 수 없습니다.
+mcv.obj : error LNK2001: cvCreateImage 외부 기호를 확인할 수 없습니다.
+mcv.obj : error LNK2001: cvReleaseImage 외부 기호를 확인할 수 없습니다.
+planar_pattern_detector.obj : error LNK2001: cvReleaseImage 외부 기호를 확인할 수 없습니다.
+template_matching_based_tracker.obj : error LNK2001: cvReleaseImage 외부 기호를 확인할 수 없습니다.
+affine_image_generator06.obj : error LNK2001: cvReleaseImage 외부 기호를 확인할 수 없습니다.
+buffer_management.obj : error LNK2001: cvReleaseImage 외부 기호를 확인할 수 없습니다.
+fine_gaussian_pyramid.obj : error LNK2001: cvReleaseImage 외부 기호를 확인할 수 없습니다.
+main.obj : error LNK2001: cvReleaseImage 외부 기호를 확인할 수 없습니다.
+affine_image_generator06.obj : error LNK2019: cvCloneImage 외부 기호(참조 위치: "public: void __cdecl affine_image_generator06::set_original_image(struct _IplImage *,int,int)" (?set_original_image@affine_image_generator06@@QEAAXPEAU_IplImage@@HH@Z) 함수)에서 확인하지 못했습니다.
+affine_image_generator06.obj : error LNK2019: cvSet 외부 기호(참조 위치: "public: void __cdecl affine_image_generator06::generate_affine_image(void)" (?generate_affine_image@affine_image_generator06@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+affine_image_generator06.obj : error LNK2019: cvConvertScale 외부 기호(참조 위치: "public: void __cdecl affine_image_generator06::generate_affine_image(void)" (?generate_affine_image@affine_image_generator06@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+mcv.obj : error LNK2001: cvConvertScale 외부 기호를 확인할 수 없습니다.
+affine_image_generator06.obj : error LNK2019: cvSmooth 외부 기호(참조 위치: "public: void __cdecl affine_image_generator06::generate_affine_image(void)" (?generate_affine_image@affine_image_generator06@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+fine_gaussian_pyramid.obj : error LNK2001: cvSmooth 외부 기호를 확인할 수 없습니다.
+mcv.obj : error LNK2001: cvSmooth 외부 기호를 확인할 수 없습니다.
+affine_image_generator06.obj : error LNK2019: cvWarpAffine 외부 기호(참조 위치: "public: void __cdecl affine_image_generator06::generate_affine_image(void)" (?generate_affine_image@affine_image_generator06@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+buffer_management.obj : error LNK2019: cvFree_ 외부 기호(참조 위치: "void __cdecl free_managed_image(struct _IplImage * *)" (?free_managed_image@@YAXPEAPEAU_IplImage@@@Z) 함수)에서 확인하지 못했습니다.
+fine_gaussian_pyramid.obj : error LNK2001: cvFree_ 외부 기호를 확인할 수 없습니다.
+buffer_management.obj : error LNK2019: cvCreateImageHeader 외부 기호(참조 위치: "bool __cdecl manage_image(struct _IplImage * *,int,int,int,int)" (?manage_image@@YA_NPEAPEAU_IplImage@@HHHH@Z) 함수)에서 확인하지 못했습니다.
+buffer_management.obj : error LNK2019: cvCopy 외부 기호(참조 위치: "bool __cdecl load_managed_image(char *,struct _IplImage * *,int)" (?load_managed_image@@YA_NPEADPEAPEAU_IplImage@@H@Z) 함수)에서 확인하지 못했습니다.
+fine_gaussian_pyramid.obj : error LNK2001: cvCopy 외부 기호를 확인할 수 없습니다.
+mcv.obj : error LNK2001: cvCopy 외부 기호를 확인할 수 없습니다.
+template_matching_based_tracker.obj : error LNK2001: cvCopy 외부 기호를 확인할 수 없습니다.
+fine_gaussian_pyramid.obj : error LNK2019: cvSetImageROI 외부 기호(참조 위치: "public: void __cdecl fine_gaussian_pyramid::set_image(struct _IplImage const *)" (?set_image@fine_gaussian_pyramid@@QEAAXPEBU_IplImage@@@Z) 함수)에서 확인하지 못했습니다.
+mcv.obj : error LNK2001: cvSetImageROI 외부 기호를 확인할 수 없습니다.
+fine_gaussian_pyramid.obj : error LNK2019: cvPyrDown 외부 기호(참조 위치: "public: void __cdecl fine_gaussian_pyramid::compute_from_level0(void)" (?compute_from_level0@fine_gaussian_pyramid@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+homography_estimator.obj : error LNK2019: cvCreateMat 외부 기호(참조 위치: "public: __cdecl homography_estimator::homography_estimator(void)" (??0homography_estimator@@QEAA@XZ) 함수)에서 확인하지 못했습니다.
+template_matching_based_tracker.obj : error LNK2001: cvCreateMat 외부 기호를 확인할 수 없습니다.
+homography_estimator.obj : error LNK2019: cvReleaseMat 외부 기호(참조 위치: "public: __cdecl homography_estimator::~homography_estimator(void)" (??1homography_estimator@@QEAA@XZ) 함수)에서 확인하지 못했습니다.
+template_matching_based_tracker.obj : error LNK2001: cvReleaseMat 외부 기호를 확인할 수 없습니다.
+homography_estimator.obj : error LNK2019: cvGEMM 외부 기호(참조 위치: "public: void __cdecl homography_estimator::denormalize(class homography06 *)" (?denormalize@homography_estimator@@QEAAXPEAVhomography06@@@Z) 함수)에서 확인하지 못했습니다.
+template_matching_based_tracker.obj : error LNK2001: cvGEMM 외부 기호를 확인할 수 없습니다.
+homography_estimator.obj : error LNK2019: cvSVD 외부 기호(참조 위치: "public: bool __cdecl homography_estimator::estimate_from_inliers(class homography06 *)" (?estimate_from_inliers@homography_estimator@@QEAA_NPEAVhomography06@@@Z) 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: cvFlip 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: cvLine 외부 기호(참조 위치: "void __cdecl draw_quadrangle(struct _IplImage *,int,int,int,int,int,int,int,int,struct CvScalar,int)" (?draw_quadrangle@@YAXPEAU_IplImage@@HHHHHHHHUCvScalar@@H@Z) 함수)에서 확인하지 못했습니다.
+mcv.obj : error LNK2001: cvLine 외부 기호를 확인할 수 없습니다.
+planar_pattern_detector.obj : error LNK2001: cvLine 외부 기호를 확인할 수 없습니다.
+main.obj : error LNK2019: cvCircle 외부 기호(참조 위치: "void __cdecl draw_detected_keypoints(struct _IplImage *,class planar_pattern_detector *)" (?draw_detected_keypoints@@YAXPEAU_IplImage@@PEAVplanar_pattern_detector@@@Z) 함수)에서 확인하지 못했습니다.
+mcv.obj : error LNK2001: cvCircle 외부 기호를 확인할 수 없습니다.
+planar_pattern_detector.obj : error LNK2001: cvCircle 외부 기호를 확인할 수 없습니다.
+pyr_yape06.obj : error LNK2001: cvCircle 외부 기호를 확인할 수 없습니다.
+main.obj : error LNK2019: cvInitFont 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: cvPutText 외부 기호(참조 위치: "void __cdecl detect_and_draw(struct _IplImage *)" (?detect_and_draw@@YAXPEAU_IplImage@@@Z) 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: cvGetTickCount 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: cvGetTickFrequency 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: cvCvtColor 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+mcv.obj : error LNK2001: cvCvtColor 외부 기호를 확인할 수 없습니다.
+main.obj : error LNK2019: cvNamedWindow 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: cvShowImage 외부 기호(참조 위치: "void __cdecl detect_and_draw(struct _IplImage *)" (?detect_and_draw@@YAXPEAU_IplImage@@@Z) 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: cvDestroyWindow 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: cvWaitKey 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: cvCreateCameraCapture 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: cvGrabFrame 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: cvRetrieveFrame 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+main.obj : error LNK2019: cvReleaseCapture 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+mcv.obj : error LNK2019: cvGetSubRect 외부 기호(참조 위치: "void __cdecl mcvPut(struct _IplImage *,struct _IplImage *,int,int)" (?mcvPut@@YAXPEAU_IplImage@@0HH@Z) 함수)에서 확인하지 못했습니다.
+mcv.obj : error LNK2019: cvAdd 외부 기호(참조 위치: "struct _IplImage * __cdecl mcvGradientNorm2(struct _IplImage *,int)" (?mcvGradientNorm2@@YAPEAU_IplImage@@PEAU1@H@Z) 함수)에서 확인하지 못했습니다.
+template_matching_based_tracker.obj : error LNK2001: cvAdd 외부 기호를 확인할 수 없습니다.
+mcv.obj : error LNK2019: cvMul 외부 기호(참조 위치: "struct _IplImage * __cdecl mcvGradientNorm2(struct _IplImage *,int)" (?mcvGradientNorm2@@YAPEAU_IplImage@@PEAU1@H@Z) 함수)에서 확인하지 못했습니다.
+template_matching_based_tracker.obj : error LNK2001: cvMul 외부 기호를 확인할 수 없습니다.
+mcv.obj : error LNK2019: cvMinMaxLoc 외부 기호(참조 위치: "struct _IplImage * __cdecl mcvFloatToGray(struct _IplImage *,int)" (?mcvFloatToGray@@YAPEAU_IplImage@@PEAU1@H@Z) 함수)에서 확인하지 못했습니다.
+mcv.obj : error LNK2019: cvLoadImage 외부 기호(참조 위치: "struct _IplImage * __cdecl mcvLoadImage(char const *,int,bool)" (?mcvLoadImage@@YAPEAU_IplImage@@PEBDH_N@Z) 함수)에서 확인하지 못했습니다.
+mcv.obj : error LNK2019: cvSaveImage 외부 기호(참조 위치: "int __cdecl mcvSaveImage(char const *,struct _IplImage *,bool)" (?mcvSaveImage@@YAHPEBDPEAU_IplImage@@_N@Z) 함수)에서 확인하지 못했습니다.
+mcv.obj : error LNK2019: cvSobel 외부 기호(참조 위치: "struct _IplImage * __cdecl mcvGradientNorm2(struct _IplImage *,int)" (?mcvGradientNorm2@@YAPEAU_IplImage@@PEAU1@H@Z) 함수)에서 확인하지 못했습니다.
+template_matching_based_tracker.obj : error LNK2001: cvSobel 외부 기호를 확인할 수 없습니다.
+mcv.obj : error LNK2019: cvResize 외부 기호(참조 위치: "struct _IplImage * __cdecl mcvResize(struct _IplImage *,int,int)" (?mcvResize@@YAPEAU_IplImage@@PEAU1@HH@Z) 함수)에서 확인하지 못했습니다.
+pyr_yape06.obj : error LNK2019: cvSetZero 외부 기호(참조 위치: "public: void __cdecl pyr_yape06::compute_laplacian(struct _IplImage *)" (?compute_laplacian@pyr_yape06@@QEAAXPEAU_IplImage@@@Z) 함수)에서 확인하지 못했습니다.
+template_matching_based_tracker.obj : error LNK2019: cvSub 외부 기호(참조 위치: "public: bool __cdecl template_matching_based_tracker::track(struct _IplImage *)" (?track@template_matching_based_tracker@@QEAA_NPEAU_IplImage@@@Z) 함수)에서 확인하지 못했습니다.
+template_matching_based_tracker.obj : error LNK2019: cvInvert 외부 기호(참조 위치: "public: void __cdecl template_matching_based_tracker::compute_As_matrices(struct _IplImage *,int,int)" (?compute_As_matrices@template_matching_based_tracker@@QEAAXPEAU_IplImage@@HH@Z) 함수)에서 확인하지 못했습니다.
+C:\opencv\build\x86\vc10\lib\opencv_calib3d2410d.lib : warning LNK4272: 'X86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\opencv\build\x86\vc10\lib\opencv_contrib2410d.lib : warning LNK4272: 'X86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\opencv\build\x86\vc10\lib\opencv_core2410d.lib : warning LNK4272: 'X86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\opencv\build\x86\vc10\lib\opencv_flann2410d.lib : warning LNK4272: 'X86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\opencv\build\x86\vc10\lib\opencv_gpu2410d.lib : warning LNK4272: 'X86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\opencv\build\x86\vc10\lib\opencv_highgui2410d.lib : warning LNK4272: 'X86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\opencv\build\x86\vc10\lib\opencv_imgproc2410d.lib : warning LNK4272: 'X86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\opencv\build\x86\vc10\lib\opencv_legacy2410d.lib : warning LNK4272: 'X86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\opencv\build\x86\vc10\lib\opencv_ml2410d.lib : warning LNK4272: 'X86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\opencv\build\x86\vc10\lib\opencv_nonfree2410d.lib : warning LNK4272: 'X86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\opencv\build\x86\vc10\lib\opencv_objdetect2410d.lib : warning LNK4272: 'X86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\opencv\build\x86\vc10\lib\opencv_ocl2410d.lib : warning LNK4272: 'X86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\opencv\build\x86\vc10\lib\opencv_photo2410d.lib : warning LNK4272: 'X86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\opencv\build\x86\vc10\lib\opencv_stitching2410d.lib : warning LNK4272: 'X86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\opencv\build\x86\vc10\lib\opencv_superres2410d.lib : warning LNK4272: 'X86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\opencv\build\x86\vc10\lib\opencv_ts2410d.lib : warning LNK4272: 'X86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\opencv\build\x86\vc10\lib\opencv_video2410d.lib : warning LNK4272: 'X86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\opencv\build\x86\vc10\lib\opencv_videostab2410d.lib : warning LNK4272: 'X86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\Users\유동하\Desktop\Ferns_multi\x64\Debug\Ferns_multi.exe : fatal error LNK1120: 43개의 확인할 수 없는 외부 참조입니다.

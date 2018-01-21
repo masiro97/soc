@@ -1,0 +1,5 @@
+비디오 파일을 열 때, 프로그램이 죽으면 비디오 codec이 없기 때문입니다.
+이 경우 영상 통합 코덱을 설치해 주세요.
+
+추천 통합코덱: ffdshow
+다운로드: http://ffdshow-tryout.sourceforge.net/
